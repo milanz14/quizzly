@@ -222,7 +222,7 @@ export default {
           ],
         },
         {
-          q: "What actor starred in 142 fils including 'The Quiet Man', 'The Shootiest', 'The Searchers' and 'Stagecoach'?",
+          q: "What actor starred in 142 films including 'The Quiet Man', 'The Shootiest', 'The Searchers' and 'Stagecoach'?",
           answers: [
             {
               text: "John Wilkes Booth",
@@ -350,12 +350,10 @@ export default {
       ],
       results: [
         {
-          min: 10,
           title: "Try again!",
           desc: "Do a little more studying and you may succeed!",
         },
         {
-          max: 12,
           title: "Wow, you're a genius!",
           desc: "Studying has definitely paid off for you!",
         },

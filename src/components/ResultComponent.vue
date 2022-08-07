@@ -1,6 +1,6 @@
 <template>
   <div class="result">
-    <div class="title">You got {{ result }} correct!</div>
+    <div class="title">You got {{ result }} / 15 correct!</div>
     <div class="desc">
       {{ result < 10 ? results[0].desc : results[1].desc }}
     </div>
